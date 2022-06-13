@@ -10,7 +10,7 @@ const ProfileSchema = new Schema({
         type: String
     },
     website: {
-        type: 'url'
+        type: [String]
     },
     location: {
         type: String
