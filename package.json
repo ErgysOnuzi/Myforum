@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ErgysOnuzi/My-Forum#readme",
   "dependencies": {
+    "nth-check": ">=2.0.1",
+
     "axios": "^0.27.2",
     "bcryptjs": "^2.4.3",
     "chalk-console": "^1.1.0",
@@ -38,6 +40,8 @@
   "devDependencies": {
     "concurrently": "^5.0.0",
     "nodemon": "^2.0.16",
-    "remote-redux-devtools": "^0.5.16"
+    "remote-redux-devtools": "^0.5.16",
+    "nth-check": ">=2.0.1"
+
   }
 }
