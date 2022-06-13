@@ -1,0 +1,43 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "social network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Ergys Onuzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErgysOnuzi/My-Forum/issues"
+  },
+  "homepage": "https://github.com/ErgysOnuzi/My-Forum#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "chalk-console": "^1.1.0",
+    "config": "^3.2.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "husky": "^8.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.0.0",
+    "mongodb": "^3.7.3",
+    "mongoose": "^5.13.14",
+    "react-moment": "^0.9.7",
+    "react-scripts": "^2.1.3",
+    "request": "^2.88.0",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.16",
+    "remote-redux-devtools": "^0.5.16"
+  }
+}
