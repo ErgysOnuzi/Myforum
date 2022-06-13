@@ -129,8 +129,9 @@ const CreateProfile = ({createProfile, history}) => {
             />
             <small className='form-text'>
                If you want your latest repos and a Github link, include your
-               username
-            </small>
+               username 
+            </small><br></br>
+            <small  className='form-text'>without spaces</small> 
          </div>
          <div className='form-group'>
             <textarea
